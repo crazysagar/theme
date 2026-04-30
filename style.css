@@ -1,11 +1,33 @@
-/* 
-        Theme Name:NovaCraft
-        Description:blog,shop
-        Author:Sagar
-        Version:1.1
-
-
-
-
-
+/*
+Theme Name: NovaCraft
+Author: Sagar
+Description: Blog and shop theme
+Version: 1.1
 */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+}
