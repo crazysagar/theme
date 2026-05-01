@@ -1,4 +1,4 @@
-<!-- <?php get_header(); ?>
+<?php get_header(); ?>
 
 <main style="padding:20px;">
 
@@ -10,7 +10,7 @@
         <h1><?php the_title(); ?></h1>
 
         <div>
-            <?php the_content(); ?>
+            <?php get_the_content(); ?>
         </div>
 
     <?php
@@ -20,4 +20,4 @@
 
 </main>
 
-<?php get_footer(); ?> -->
+<?php get_footer(); ?> 
